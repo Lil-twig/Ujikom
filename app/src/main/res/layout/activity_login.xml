@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/abcd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome
+        Back"
+        android:textColor="#1572A1"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047"
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <EditText
+        android:id="@+id/edt_NamaAnakLogin"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="Name Of The Kid"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/abcd"
+        app:layout_constraintVertical_bias="0.181" />
+
+    <EditText
+        android:id="@+id/pw_Login"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_NamaAnakLogin"
+        app:layout_constraintVertical_bias="0.06" />
+
+    <TextView
+        android:id="@+id/txt_ForgotPw"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Forgot Password?"
+        android:textAlignment="viewEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pw_Login"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_Login"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:text="Login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_ForgotPw"
+        app:layout_constraintVertical_bias="0.638" />
+
+    <TextView
+        android:id="@+id/link_toSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You Don't Have Account? Sign Here"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Login"
+        app:layout_constraintVertical_bias="0.102"
+        tools:layout_editor_absoluteX="0dp"
+        android:textAlignment="center"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
