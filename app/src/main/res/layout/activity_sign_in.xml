@@ -21,7 +21,7 @@
         tools:layout_editor_absoluteX="-16dp" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/signNamaOrangTua"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_marginTop="50dp"
@@ -37,7 +37,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/signPw"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_marginTop="30dp"
@@ -49,11 +49,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/signNamaOrangTua"
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/signReapetPw"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_marginTop="30dp"
@@ -65,11 +65,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText1"
+        app:layout_constraintTop_toBottomOf="@+id/signPw"
         app:layout_constraintVertical_bias="0.0" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/signAnak"
         android:layout_width="250dp"
         android:layout_height="40dp"
         android:layout_marginTop="30dp"
@@ -81,7 +81,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintTop_toBottomOf="@+id/signReapetPw"
         app:layout_constraintVertical_bias="0.0" />
 
     <CheckBox
@@ -90,12 +90,13 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="70dp"
         android:layout_marginRight="310dp"
+        android:layout_marginBottom="196dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.184"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText3"
-        app:layout_constraintVertical_bias="0.091">
+        app:layout_constraintTop_toBottomOf="@+id/signAnak"
+        app:layout_constraintVertical_bias="1.0">
 
     </CheckBox>
 
@@ -104,34 +105,32 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="48dp"
         android:layout_marginEnd="101dp"
-        android:layout_marginBottom="363dp"
-        android:textColor="@color/black"
+        android:layout_marginBottom="212dp"
         android:text="I agree with terms and condition"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/checkBox"
-        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+        app:layout_constraintTop_toBottomOf="@+id/checkBox"
+        app:layout_constraintVertical_bias="0.914" />
 
     <Button
-        android:background="@drawable/rounder"
-        android:id="@+id/button"
+        android:id="@+id/btnSignUp"
         android:layout_width="248dp"
         android:layout_height="57dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginBottom="108dp"
+        android:background="@drawable/rounder"
         android:text="Sign Up"
-        android:ba="@color/dark_blue"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/link_toLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Already have account? Login"
@@ -139,8 +138,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.086" />
+        app:layout_constraintTop_toBottomOf="@+id/btnSignUp"
+        app:layout_constraintVertical_bias="0.297" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
