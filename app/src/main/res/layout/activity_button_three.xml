@@ -10,10 +10,10 @@
     <Button
         android:id="@+id/button1"
         android:layout_width="300dp"
+        android:backgroundTint="@color/dark_blue"
         android:layout_height="100dp"
         android:text="ORANG TUA"
         android:textSize="30dp"
-        android:backgroundTint="@color/dark_blue"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
