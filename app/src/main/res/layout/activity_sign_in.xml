@@ -22,8 +22,8 @@
 
     <EditText
         android:id="@+id/signNamaOrangTua"
-        android:layout_width="250dp"
-        android:layout_height="40dp"
+        android:layout_width="261dp"
+        android:layout_height="59dp"
         android:layout_marginTop="50dp"
         android:background="@drawable/rounder"
         android:hint="   Nama Orang Tua/E-mail..."
@@ -38,8 +38,8 @@
 
     <EditText
         android:id="@+id/signPw"
-        android:layout_width="250dp"
-        android:layout_height="40dp"
+        android:layout_width="261dp"
+        android:layout_height="59dp"
         android:layout_marginTop="30dp"
         android:background="@drawable/rounder"
         android:hint="   Password..."
@@ -54,8 +54,8 @@
 
     <EditText
         android:id="@+id/signReapetPw"
-        android:layout_width="250dp"
-        android:layout_height="40dp"
+        android:layout_width="261dp"
+        android:layout_height="59dp"
         android:layout_marginTop="30dp"
         android:background="@drawable/rounder"
         android:hint="   Repeat Password..."
@@ -70,8 +70,8 @@
 
     <EditText
         android:id="@+id/signAnak"
-        android:layout_width="250dp"
-        android:layout_height="40dp"
+        android:layout_width="261dp"
+        android:layout_height="59dp"
         android:layout_marginTop="30dp"
         android:background="@drawable/rounder"
         android:hint="   Nama Anak..."
@@ -121,7 +121,7 @@
         android:layout_width="248dp"
         android:layout_height="57dp"
         android:layout_marginBottom="108dp"
-        android:background="@drawable/rounder"
+        android:background="@drawable/button_rounded"
         android:text="Sign Up"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"

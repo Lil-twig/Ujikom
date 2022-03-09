@@ -3,16 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/drawable/rounder.xml" value="0.2035" />
-        <entry key="app/src/main/res/layout/activity_button_three.xml" value="0.1644021739130435" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.26042966980865045" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.23192749023437492" />
-        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.4760854085286459" />
-        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.18704710144927536" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.147" />
+        <entry key="app/src/main/res/drawable/button_rounded.xml" value="0.147" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.147" />
+        <entry key="app/src/main/res/drawable/rounder.xml" value="0.147" />
+        <entry key="app/src/main/res/layout/activity_button_three.xml" value="0.16596374511718748" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.2979583740234375" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.6476333618164063" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
