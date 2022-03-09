@@ -35,6 +35,7 @@
     <EditText
         android:id="@+id/pw_Login"
         android:layout_width="240dp"
+
         android:layout_height="wrap_content"
         android:hint="Password"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -62,6 +63,7 @@
         android:layout_width="160dp"
         android:layout_height="60dp"
         android:text="Login"
+        android:background="@drawable/rounder"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
