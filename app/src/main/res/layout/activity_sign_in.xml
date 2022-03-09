@@ -10,10 +10,10 @@
         android:id="@+id/abc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Create A New Account"
+        android:text="Create a New Account"
         android:textColor="#1572A1"
         android:textAlignment="center"
-        android:textSize="50dp"
+        android:textSize="35dp"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -26,7 +26,7 @@
         android:layout_height="59dp"
         android:layout_marginTop="50dp"
         android:background="@drawable/rounder"
-        android:hint="   Nama Orang Tua/E-mail..."
+        android:hint="     Nama Orang Tua/E-mail..."
         android:textColorHint="#ffff"
         android:textSize="13dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -42,7 +42,7 @@
         android:layout_height="59dp"
         android:layout_marginTop="30dp"
         android:background="@drawable/rounder"
-        android:hint="   Password..."
+        android:hint="     Password..."
         android:textColorHint="#ffff"
         android:textSize="13dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -58,7 +58,7 @@
         android:layout_height="59dp"
         android:layout_marginTop="30dp"
         android:background="@drawable/rounder"
-        android:hint="   Repeat Password..."
+        android:hint="     Repeat Password..."
         android:textColorHint="#ffff"
         android:textSize="13dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -74,7 +74,7 @@
         android:layout_height="59dp"
         android:layout_marginTop="30dp"
         android:background="@drawable/rounder"
-        android:hint="   Nama Anak..."
+        android:hint="     Nama Anak..."
         android:textSize="13dp"
         android:textColorHint="#ffff"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -118,15 +118,15 @@
 
     <Button
         android:id="@+id/btnSignUp"
-        android:layout_width="248dp"
-        android:layout_height="57dp"
-        android:layout_marginBottom="80dp"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="76dp"
         android:background="@drawable/button_rounded"
         android:text="Sign Up"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -139,7 +139,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnSignUp"
-        app:layout_constraintVertical_bias="0.297" />
+        app:layout_constraintVertical_bias="0.283" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

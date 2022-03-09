@@ -11,7 +11,7 @@
         android:id="@+id/button1"
         android:layout_width="300dp"
         android:background="@drawable/rounder"
-        android:layout_height="100dp"
+        android:layout_height="90dp"
         android:text="ORANG TUA"
         android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,7 +24,7 @@
     <Button
         android:id="@+id/button2"
         android:layout_width="300dp"
-        android:layout_height="100dp"
+        android:layout_height="90dp"
         android:background="@drawable/rounder"
         android:layout_marginTop="50dp"
         android:text="ANAK"
@@ -39,7 +39,7 @@
     <Button
         android:id="@+id/button3"
         android:layout_width="300dp"
-        android:layout_height="100dp"
+        android:layout_height="90dp"
         android:background="@drawable/rounder"
         android:layout_marginTop="50dp"
         android:text="TASK"
