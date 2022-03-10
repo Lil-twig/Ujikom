@@ -4,9 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/rounder.xml" value="0.1325" />
+        <entry key="app/src/main/res/layout/activity_button_three.xml" value="0.15942028985507245" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.2148193359375" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.23192749023437492" />
-        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.38212483723958335" />
+        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.18704710144927536" />
       </map>
     </option>
