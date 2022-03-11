@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp100"
+    android:layout_margin="@dimen/dp8">
+
+    <TextView
+        android:id="@+id/txt_Tugas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tugas 1"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginTop="@dimen/dp24"
+        android:id="@+id/txt_DescTugas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Desc Tugas"/>
+
+    <ImageView
+        android:id="@+id/img_Gopay"
+        android:layout_width="109dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/dp20"
+
+        android:background="@drawable/gopay" />
+
+</androidx.cardview.widget.CardView>
