@@ -1,11 +1,12 @@
-package com.Ihsan.ujikom
+package com.Ihsan.ujikom.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.Ihsan.ujikom.R
 
-class buttonThreeActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_button_three)
+        setContentView(R.layout.activity_main)
     }
 }

@@ -1,11 +1,15 @@
-package com.Ihsan.ujikom
+package com.Ihsan.ujikom.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.Ihsan.ujikom.R
 
-class LoginActivity : AppCompatActivity() {
+class SignInActivity : AppCompatActivity() {
+
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_sign_in)
     }
 }
