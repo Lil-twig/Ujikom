@@ -20,69 +20,55 @@
         app:layout_constraintVertical_bias="0.047"
         tools:layout_editor_absoluteX="-16dp" />
 
-<!--    <EditText-->
-<!--        android:id="@+id/signNamaOrangTua"-->
-<!--        android:layout_width="261dp"-->
-<!--        android:layout_height="59dp"-->
-<!--        android:layout_marginTop="50dp"-->
-<!--        android:background="@drawable/rounder"-->
-<!--        android:hint="     Nama Orang Tua/E-mail..."-->
-<!--        android:textColorHint="#ffff"-->
-<!--        android:textSize="13dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.496"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/abc"-->
-<!--        app:layout_constraintVertical_bias="0.0" />-->
+    <EditText
+        android:id="@+id/signNamaOrangTua"
+        android:layout_width="261dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounder"
+        android:hint="     Nama Orang Tua/E-mail..."
+        android:textColorHint="#ffff"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/abc"
+        app:layout_constraintVertical_bias="0.0" />
 
-<!--    <EditText-->
-<!--        android:id="@+id/signPw"-->
-<!--        android:layout_width="261dp"-->
-<!--        android:layout_height="59dp"-->
-<!--        android:layout_marginTop="30dp"-->
-<!--        android:background="@drawable/rounder"-->
-<!--        android:hint="     Password..."-->
-<!--        android:textColorHint="#ffff"-->
-<!--        android:textSize="13dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.496"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/signNamaOrangTua"-->
-<!--        app:layout_constraintVertical_bias="0.0" />-->
+    <EditText
+        android:id="@+id/signPw"
+        android:layout_width="261dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounder"
+        android:hint="     Password..."
+        android:textColorHint="#ffff"
+        android:textSize="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signNamaOrangTua"
+        app:layout_constraintVertical_bias="0.0" />
 
-<!--    <EditText-->
-<!--        android:id="@+id/signReapetPw"-->
-<!--        android:layout_width="261dp"-->
-<!--        android:layout_height="59dp"-->
-<!--        android:layout_marginTop="30dp"-->
-<!--        android:background="@drawable/rounder"-->
-<!--        android:hint="     Repeat Password..."-->
-<!--        android:textColorHint="#ffff"-->
-<!--        android:textSize="13dp"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.496"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/signPw"-->
-<!--        app:layout_constraintVertical_bias="0.0" />-->
 
-<!--    <EditText-->
-<!--        android:id="@+id/signAnak"-->
-<!--        android:layout_width="261dp"-->
-<!--        android:layout_height="59dp"-->
-<!--        android:layout_marginTop="30dp"-->
-<!--        android:background="@drawable/rounder"-->
-<!--        android:hint="     Nama Anak..."-->
-<!--        android:textSize="13dp"-->
-<!--        android:textColorHint="#ffff"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.496"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/signReapetPw"-->
-<!--        app:layout_constraintVertical_bias="0.0" />-->
+
+    <EditText
+        android:id="@+id/signAnak"
+        android:layout_width="261dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounder"
+        android:hint="     Nama Anak..."
+        android:textSize="13dp"
+        android:textColorHint="#ffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signPw"
+        app:layout_constraintVertical_bias="0.0" />
 
 <!--    <CheckBox-->
 <!--        android:id="@+id/checkBox"-->
@@ -116,114 +102,114 @@
 <!--        app:layout_constraintTop_toBottomOf="@+id/checkBox"-->
 <!--        app:layout_constraintVertical_bias="0.439" />-->
 
-<!--    <Button-->
-<!--        android:id="@+id/btnSignUp"-->
-<!--        android:layout_width="250dp"-->
-<!--        android:layout_height="55dp"-->
-<!--        android:layout_marginBottom="76dp"-->
-<!--        android:background="@drawable/button_rounded"-->
-<!--        android:text="Sign Up"-->
-<!--        android:textColor="@color/white"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.496"-->
-<!--        app:layout_constraintStart_toStartOf="parent" />-->
-
-<!--    <TextView-->
-<!--        android:id="@+id/link_toLogin"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Already have account? Login"-->
-<!--        android:textColor="@color/black"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/btnSignUp"-->
-<!--        app:layout_constraintVertical_bias="0.283" />-->
-
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/signNamaOrangTua"
-        android:layout_width="260dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:hint="Name Of Parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/abc"
-        app:layout_constraintVertical_bias="0.13"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="text"/>
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/signPw"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        android:layout_width="260dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:hint="Password"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/signNamaOrangTua"
-        app:layout_constraintVertical_bias="0.046">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="textPassword" />
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/signAnak"
-        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-        android:layout_width="260dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:hint="Name Of Kids"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/signPw"
-        app:layout_constraintVertical_bias="0.038">
-
-        <com.google.android.material.textfield.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="text" />
-
-    </com.google.android.material.textfield.TextInputLayout>
-
     <Button
-            android:id="@+id/btnSignUp"
-            android:layout_width="250dp"
-            android:layout_height="55dp"
-            android:layout_marginBottom="76dp"
-            android:background="@drawable/button_rounded"
-            android:text="Sign Up"
-            android:textColor="@color/white"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.496"
-            app:layout_constraintStart_toStartOf="parent" />
+        android:id="@+id/btnSignUp"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="76dp"
+        android:background="@drawable/button_rounded"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <TextView
-            android:id="@+id/link_toLogin"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Already have account? Login"
-            android:textColor="@color/black"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btnSignUp"
-            app:layout_constraintVertical_bias="0.283" />
+    <TextView
+        android:id="@+id/link_toLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have account? Login"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignUp"
+        app:layout_constraintVertical_bias="0.283" />
+
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/signNamaOrangTua"-->
+<!--        android:layout_width="260dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="72dp"-->
+<!--        android:hint="Name Of Parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/abc"-->
+<!--        app:layout_constraintVertical_bias="0.13"-->
+<!--        style="@style/Widget.MaterialComponents.Button.OutlinedButton">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:inputType="text"/>-->
+
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/signPw"-->
+<!--        style="@style/Widget.MaterialComponents.Button.OutlinedButton"-->
+<!--        android:layout_width="260dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="72dp"-->
+<!--        android:hint="Password"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/signNamaOrangTua"-->
+<!--        app:layout_constraintVertical_bias="0.046">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:inputType="textPassword" />-->
+
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/signAnak"-->
+<!--        style="@style/Widget.MaterialComponents.Button.OutlinedButton"-->
+<!--        android:layout_width="260dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="72dp"-->
+<!--        android:hint="Name Of Kids"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/signPw"-->
+<!--        app:layout_constraintVertical_bias="0.038">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:inputType="text" />-->
+
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <Button-->
+<!--            android:id="@+id/btnSignUp"-->
+<!--            android:layout_width="250dp"-->
+<!--            android:layout_height="55dp"-->
+<!--            android:layout_marginBottom="76dp"-->
+<!--            android:background="@drawable/button_rounded"-->
+<!--            android:text="Sign Up"-->
+<!--            android:textColor="@color/white"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintHorizontal_bias="0.496"-->
+<!--            app:layout_constraintStart_toStartOf="parent" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/link_toLogin"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Already have account? Login"-->
+<!--            android:textColor="@color/black"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/btnSignUp"-->
+<!--            app:layout_constraintVertical_bias="0.283" />-->
 
 
 
