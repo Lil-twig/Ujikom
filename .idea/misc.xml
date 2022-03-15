@@ -7,13 +7,13 @@
         <entry key="app/src/main/res/drawable/button_rounded.xml" value="0.147" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.147" />
         <entry key="app/src/main/res/drawable/rounder.xml" value="0.147" />
-        <entry key="app/src/main/res/layout/activity_button_three.xml" value="0.16596374511718748" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.2979583740234375" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.21984252929687503" />
-        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.25562744140625" />
+        <entry key="app/src/main/res/layout/activity_button_three.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.28474884033203124" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/card_layout.xml" value="0.36287178371263584" />
-        <entry key="app/src/main/res/layout/list_view.xml" value="0.35561370849609375" />
+        <entry key="app/src/main/res/layout/card_layout.xml" value="0.1145788798631894" />
+        <entry key="app/src/main/res/layout/list_view.xml" value="0.4132231404958678" />
       </map>
     </option>
   </component>

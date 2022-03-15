@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "245033135117",
+    "firebase_url": "https://ujikom-720f0-default-rtdb.firebaseio.com",
+    "project_id": "ujikom-720f0",
+    "storage_bucket": "ujikom-720f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245033135117:android:a4901c544c4f435c58b944",
+        "android_client_info": {
+          "package_name": "com.Ihsan.ujikom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245033135117-7iv0o182658q882vgl91g5samvklrf4l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Ihsan.ujikom",
+            "certificate_hash": "522cde08aa9b4722e28d8a2050f42a4461f3a157"
+          }
+        },
+        {
+          "client_id": "245033135117-ns75k00kkre5dk79qkjoa1h0890di3oi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBVf_HwktCq8hZEa6zJrxS6hwzqsw4FC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245033135117-ns75k00kkre5dk79qkjoa1h0890di3oi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
