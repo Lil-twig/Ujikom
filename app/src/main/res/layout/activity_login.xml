@@ -35,7 +35,6 @@
     <EditText
         android:id="@+id/pw_Login"
         android:layout_width="240dp"
-
         android:layout_height="wrap_content"
         android:hint="Password"
         app:layout_constraintBottom_toBottomOf="parent"
