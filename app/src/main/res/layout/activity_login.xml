@@ -25,6 +25,7 @@
         android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:hint="Name Of The Kid"
+        android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -32,11 +33,14 @@
         app:layout_constraintTop_toBottomOf="@+id/abcd"
         app:layout_constraintVertical_bias="0.181" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/pw_Login"
         android:layout_width="240dp"
         android:layout_height="wrap_content"
+        app:hintEnabled="true"
         android:hint="Password"
+        android:inputType="textPassword"
+        app:passwordToggleEnabled="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"

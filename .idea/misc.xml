@@ -3,18 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.147" />
-        <entry key="app/src/main/res/drawable/button_rounded.xml" value="0.147" />
-        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.147" />
-        <entry key="app/src/main/res/drawable/rounder.xml" value="0.147" />
-        <entry key="app/src/main/res/layout/activity_button_ortu_task.xml" value="0.20516304347826086" />
-        <entry key="app/src/main/res/layout/activity_button_three.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.35497589111328126" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.347607421875" />
-        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.8243591308593751" />
-        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/card_layout.xml" value="0.1145788798631894" />
-        <entry key="app/src/main/res/layout/list_view.xml" value="0.4132231404958678" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1325" />
+        <entry key="app/src/main/res/drawable/button_rounded.xml" value="0.1325" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1325" />
+        <entry key="app/src/main/res/drawable/rounder.xml" value="0.1325" />
+        <entry key="app/src/main/res/layout/activity_button_three.xml" value="0.15942028985507245" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.2148193359375" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.23192749023437492" />
+        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.25897979736328125" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.18704710144927536" />
+        <entry key="app/src/main/res/layout/card_layout.xml" value="0.15942028985507245" />
+        <entry key="app/src/main/res/layout/list_view.xml" value="0.19460095391757248" />
       </map>
     </option>
   </component>
