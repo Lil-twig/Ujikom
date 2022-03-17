@@ -5,19 +5,19 @@ import android.os.Bundle
 import android.widget.Toast
 import com.Ihsan.ujikom.R
 import com.Ihsan.ujikom.User
-import com.Ihsan.ujikom.databinding.ActivitySignInBinding
+import com.Ihsan.ujikom.databinding.ActivitySignUpBinding
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 
-class SignInActivity : AppCompatActivity() {
+class SignUpActivity : AppCompatActivity() {
 
-    private lateinit var binding : ActivitySignInBinding
+    private lateinit var binding : ActivitySignUpBinding
     private lateinit var database : DatabaseReference
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
-        binding = ActivitySignInBinding.inflate(layoutInflater)
+        binding = ActivitySignUpBinding.inflate(layoutInflater)
 
         binding.btnSignUp.setOnClickListener {
 
