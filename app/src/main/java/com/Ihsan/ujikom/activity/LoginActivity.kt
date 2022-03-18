@@ -76,10 +76,9 @@ class LoginActivity : AppCompatActivity() {
         progressDialog.show()
         firebaseAuth.signInWithEmailAndPassword(nameOfTheKid,password)
             .addOnSuccessListener {
+
                 progressDialog.dismiss()
-                val firebaseUser = firebaseAuth.currentUser
-                val email = firebaseUser!!.email
-                Toast.makeText(this, "Logging as ${email}", Toast.LENGTH_SHORT).show()
+
                 startActivity(Intent(this, MainActivity::class.java))
                 finish()
 
@@ -95,6 +94,8 @@ class LoginActivity : AppCompatActivity() {
     private fun checkUser() {
         val firebaseAuth = firebaseAuth.currentUser
         if (firebaseAuth != null) {
+            Toast.makeText(this, "No User", Toast.LENGTH_SHORT).show()
+        } else {
             startActivity(Intent(this, buttonThreeActivity::class.java))
             finish()
         }
