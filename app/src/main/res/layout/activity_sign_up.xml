@@ -52,21 +52,6 @@
         app:layout_constraintTop_toBottomOf="@+id/signNamaOrangTua"
         app:layout_constraintVertical_bias="0.0" />
 
-    <EditText
-        android:id="@+id/signReapetPw"
-        android:layout_width="261dp"
-        android:layout_height="59dp"
-        android:layout_marginTop="30dp"
-        android:background="@drawable/rounder"
-        android:hint="     Repeat Password..."
-        android:textColorHint="#ffff"
-        android:textSize="13dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/signPw"
-        app:layout_constraintVertical_bias="0.0" />
 
     <EditText
         android:id="@+id/signAnak"
@@ -81,38 +66,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/signReapetPw"
+        app:layout_constraintTop_toBottomOf="@+id/signPw"
         app:layout_constraintVertical_bias="0.0" />
 
-    <CheckBox
-        android:id="@+id/checkBox"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="70dp"
-        android:layout_marginRight="310dp"
-        android:layout_marginBottom="196dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.184"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/signAnak"
-        app:layout_constraintVertical_bias="0.0">
 
-    </CheckBox>
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:text="I agree with terms and condition"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/btnSignUp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/checkBox"
-        app:layout_constraintTop_toBottomOf="@+id/signAnak"
-        app:layout_constraintVertical_bias="0.111" />
 
     <Button
         android:id="@+id/btnSignUp"
