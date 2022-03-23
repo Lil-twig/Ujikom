@@ -3,18 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1325" />
-        <entry key="app/src/main/res/drawable/button_rounded.xml" value="0.1325" />
-        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1325" />
-        <entry key="app/src/main/res/drawable/rounder.xml" value="0.1325" />
-        <entry key="app/src/main/res/layout/activity_button_three.xml" value="0.15942028985507245" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.2148193359375" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.23192749023437492" />
-        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.18795166015625003" />
-        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.17915649414062496" />
-        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.46189603943755664" />
-        <entry key="app/src/main/res/layout/card_layout.xml" value="0.15942028985507245" />
-        <entry key="app/src/main/res/layout/list_view.xml" value="0.19460095391757248" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.147" />
+        <entry key="app/src/main/res/drawable/button_rounded.xml" value="0.147" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.147" />
+        <entry key="app/src/main/res/drawable/ic_plus_icon_background.xml" value="0.1455" />
+        <entry key="app/src/main/res/drawable/rounder.xml" value="0.147" />
+        <entry key="app/src/main/res/layout/activity_button_anak_task.xml" value="0.21" />
+        <entry key="app/src/main/res/layout/activity_button_ortu_task.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_button_three.xml" value="0.16596374511718748" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.26939086914062493" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
       </map>
     </option>
   </component>
