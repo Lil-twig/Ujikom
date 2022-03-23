@@ -17,8 +17,8 @@ class LoginActivity : AppCompatActivity() {
 
     private lateinit var binding :ActivityLoginBinding
     private lateinit var firebaseAuth : FirebaseAuth
-    private lateinit var actionBar: ActionBar
-    private lateinit var progressDialog: ProgressDialog
+//    private lateinit var actionBar: ActionBar
+//    private lateinit var progressDialog: ProgressDialog
     private var nameOfTheKid = ""
     private var password = ""
 
@@ -28,24 +28,23 @@ class LoginActivity : AppCompatActivity() {
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        actionBar = supportActionBar!!
-        actionBar.title = "Login"
-
-        progressDialog = ProgressDialog(this)
-        progressDialog.setTitle("Please Wait...")
-        progressDialog.setMessage("Logging In...")
-        progressDialog.setCanceledOnTouchOutside(false)
+//        actionBar = supportActionBar!!
+//        actionBar.title = "Login"
+//
+//        progressDialog = ProgressDialog(this)
+//        progressDialog.setTitle("Please Wait...")
+//        progressDialog.setMessage("Logging In...")
+//        progressDialog.setCanceledOnTouchOutside(false)
 
         firebaseAuth = FirebaseAuth.getInstance()
         checkUser()
 
-        binding.btnLogin.setOnClickListener {
-            validateData()
+        binding.linkToSignUp.setOnClickListener {
+            startActivity(Intent(this, SignUpActivity::class.java))
         }
 
-        val textVIew = findViewById <TextView> (R.id.link_toSignUp)
-        textVIew.setOnClickListener {
-            startActivity(Intent(this@LoginActivity, SignUpActivity::class.java))
+        binding.btnLogin.setOnClickListener {
+            validateData()
         }
 
     }
@@ -73,12 +72,14 @@ class LoginActivity : AppCompatActivity() {
 
     private fun firebaseLogin() {
 
-        progressDialog.show()
-        firebaseAuth.signInWithEmailAndPassword(nameOfTheKid,password)
+//        progressDialog.show()
+        firebaseAuth.signInWithEmailAndPassword(nameOfTheKid, password)
             .addOnSuccessListener {
 
-                progressDialog.dismiss()
-
+//                progressDialog.dismiss()
+                val fireBaseUser = firebaseAuth.currentUser
+                val email = fireBaseUser!!.email
+                Toast.makeText(this, "Logged in as $email", Toast.LENGTH_SHORT).show()
                 startActivity(Intent(this, MainActivity::class.java))
                 finish()
 
@@ -94,9 +95,7 @@ class LoginActivity : AppCompatActivity() {
     private fun checkUser() {
         val firebaseAuth = firebaseAuth.currentUser
         if (firebaseAuth != null) {
-            Toast.makeText(this, "No User", Toast.LENGTH_SHORT).show()
-        } else {
-            startActivity(Intent(this, buttonThreeActivity::class.java))
+            startActivity(Intent(this, MainActivity::class.java))
             finish()
         }
     }
