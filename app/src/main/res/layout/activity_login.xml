@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/abcd"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome\n Back"
         android:textColor="#1572A1"
