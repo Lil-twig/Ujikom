@@ -15,9 +15,96 @@ import com.google.firebase.auth.FirebaseAuth
 
 class LoginActivity : AppCompatActivity() {
 
+//    private lateinit var binding :ActivityLoginBinding
+//    private lateinit var firebaseAuth : FirebaseAuth
+//    private lateinit var actionBar: ActionBar
+//    private lateinit var progressDialog: ProgressDialog
+//    private var nameOfTheKid = ""
+//    private var password = ""
+//
+//    override fun onCreate(savedInstanceState: Bundle?) {
+//        super.onCreate(savedInstanceState)
+//
+//        binding = ActivityLoginBinding.inflate(layoutInflater)
+//        setContentView(binding.root)
+//
+//        actionBar = supportActionBar!!
+//        actionBar.title = "Login"
+//
+//        progressDialog = ProgressDialog(this)
+//        progressDialog.setTitle("Please Wait...")
+//        progressDialog.setMessage("Logging In...")
+//        progressDialog.setCanceledOnTouchOutside(false)
+//
+//        firebaseAuth = FirebaseAuth.getInstance()
+//        checkUser()
+//
+//        binding.btnLogin.setOnClickListener {
+//            validateData()
+//        }
+//
+//        val textVIew = findViewById <TextView> (R.id.link_toSignUp)
+//        textVIew.setOnClickListener {
+//            startActivity(Intent(this@LoginActivity, SignUpActivity::class.java))
+//        }
+//
+//    }
+//
+//    private fun validateData() {
+//
+//        nameOfTheKid = binding.edtNamaAnakLogin.text.toString().trim()
+//        password = binding.pwLogin.text.toString().trim()
+//
+//        if (!Patterns.EMAIL_ADDRESS.matcher(nameOfTheKid).matches()) {
+//            binding.edtNamaAnakLogin.error = "Invalid email format"
+//        }
+//
+//        else if (TextUtils.isEmpty(password)) {
+//            binding.pwLogin.error = "Please Enter The Password"
+//        }
+//
+//        else {
+//
+//            firebaseLogin()
+//
+//        }
+//
+//    }
+//
+//    private fun firebaseLogin() {
+//
+//        progressDialog.show()
+//        firebaseAuth.signInWithEmailAndPassword(nameOfTheKid,password)
+//            .addOnSuccessListener {
+//
+//                progressDialog.dismiss()
+//
+//                startActivity(Intent(this, MainActivity::class.java))
+//                finish()
+//
+//
+//
+//            }
+//
+//            .addOnFailureListener { e ->
+//                Toast.makeText(this, "Login Failed due to ${e.message}", Toast.LENGTH_SHORT).show()
+//            }
+//
+//    }
+//
+//    private fun checkUser() {
+//        val firebaseAuth = firebaseAuth.currentUser
+//        if (firebaseAuth != null) {
+//            Toast.makeText(this, "No User", Toast.LENGTH_SHORT).show()
+//        } else {
+//            startActivity(Intent(this, ButtonThreeActivity::class.java))
+//            finish()
+//        }
+//    }
+
     private lateinit var binding :ActivityLoginBinding
     private lateinit var firebaseAuth : FirebaseAuth
-//    private lateinit var actionBar: ActionBar
+    //    private lateinit var actionBar: ActionBar
 //    private lateinit var progressDialog: ProgressDialog
     private var nameOfTheKid = ""
     private var password = ""

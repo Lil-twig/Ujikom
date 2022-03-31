@@ -6,17 +6,12 @@ import android.os.Bundle
 import android.text.TextUtils
 import android.util.Patterns
 import android.widget.Toast
-import com.Ihsan.ujikom.R
-import com.Ihsan.ujikom.User
-import com.Ihsan.ujikom.databinding.ActivityLoginBinding
 import com.Ihsan.ujikom.databinding.ActivitySignUpBinding
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.database.DatabaseReference
-import com.google.firebase.database.FirebaseDatabase
 
 class SignUpActivity : AppCompatActivity() {
 
-//    private lateinit var binding : ActivitySignUpBinding
+    //    private lateinit var binding : ActivitySignUpBinding
 //    private lateinit var database : DatabaseReference
     private lateinit var binding : ActivitySignUpBinding
     private lateinit var firebaseAuth : FirebaseAuth
