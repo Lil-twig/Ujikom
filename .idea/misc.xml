@@ -5,6 +5,8 @@
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1325" />
         <entry key="app/src/main/res/drawable/button_rounded.xml" value="0.1325" />
+        <entry key="app/src/main/res/drawable/ic_add.xml" value="0.1915" />
+        <entry key="app/src/main/res/drawable/ic_add_24.xml" value="0.1915" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1325" />
         <entry key="app/src/main/res/drawable/rounder.xml" value="0.1325" />
         <entry key="app/src/main/res/layout/activity_button_anak_task.xml" value="0.18541666666666667" />
@@ -21,6 +23,7 @@
         <entry key="app/src/main/res/layout/fragment_update.xml" value="0.1734375" />
         <entry key="app/src/main/res/layout/layout_progress.xml" value="0.20516304347826086" />
         <entry key="app/src/main/res/layout/list_view.xml" value="0.19460095391757248" />
+        <entry key="app/src/main/res/layout/note_rv_item.xml" value="0.17798913043478262" />
         <entry key="app/src/main/res/layout/row_layout.xml" value="0.22010869565217392" />
         <entry key="app/src/main/res/menu/add_fragment_menu.xml" value="0.17482604980468758" />
         <entry key="app/src/main/res/menu/list_fragment_menu.xml" value="0.32447916666666665" />
