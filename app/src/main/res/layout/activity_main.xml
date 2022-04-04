@@ -24,5 +24,14 @@
         android:layout_margin="@dimen/dp20"
         android:backgroundTint="@color/black_shade_2"/>
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/FABABack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_back"
+        android:backgroundTint="@color/black_shade_2"/>
+
 
 </RelativeLayout>

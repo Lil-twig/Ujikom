@@ -18,12 +18,13 @@
         <entry key="app/src/main/res/drawable/ic_save.xml" value="0.157" />
         <entry key="app/src/main/res/drawable/ic_search.xml" value="0.157" />
         <entry key="app/src/main/res/drawable/rounder.xml" value="0.147" />
+        <entry key="app/src/main/res/layout/acitivity_logout.xml" value="0.17074275362318841" />
         <entry key="app/src/main/res/layout/activity_button_anak_task.xml" value="0.21" />
         <entry key="app/src/main/res/layout/activity_button_ortu_task.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_button_three.xml" value="0.16596374511718748" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.26939086914062493" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_notes.xml" value="0.1671195652173913" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.17987365722656257" />
+        <entry key="app/src/main/res/layout/activity_notes.xml" value="0.2715057373046876" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.1671195652173913" />
