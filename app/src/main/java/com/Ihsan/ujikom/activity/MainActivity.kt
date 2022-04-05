@@ -31,11 +31,11 @@ class MainActivity : AppCompatActivity(), NoteClickDeleteInterface, NoteClickInt
         val noteRVAdapter = NotesAdapter(this, this, this)
         notesRV.adapter = noteRVAdapter
         viewModel = ViewModelProvider(this, ViewModelProvider.AndroidViewModelFactory.getInstance(application)).get(NotesViewModel::class.java)
-        viewModel.allNotes.observe(this, { list->
+        viewModel.allNotes.observe(this) { list ->
             list?.let {
                 noteRVAdapter.updateList(it)
             }
-        })
+        }
         addNote.setOnClickListener {
             val intent = Intent(this@MainActivity,AddEditNoteActivity::class.java)
             startActivity(intent)
@@ -51,8 +51,8 @@ class MainActivity : AppCompatActivity(), NoteClickDeleteInterface, NoteClickInt
     override fun onNoteClick(note: Notes) {
         val intent = Intent(this@MainActivity, AddEditNoteActivity::class.java)
         intent.putExtra("noteType", "Edit")
-        intent.putExtra("noteTitle", note.noteTitle)
-        intent.putExtra("noteDescription", note.noteDesc)
+        intent.putExtra("title", note.noteTitle)
+        intent.putExtra("description", note.noteDesc)
         intent.putExtra("noteID", note.id)
         startActivity(intent)
         finish()

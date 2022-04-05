@@ -4,10 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1325" />
+        <entry key="app/src/main/res/drawable-v24/ic_no_data.xml" value="0.1495" />
         <entry key="app/src/main/res/drawable/button_rounded.xml" value="0.1325" />
+        <entry key="app/src/main/res/drawable/custom_button_back.xml" value="0.1495" />
+        <entry key="app/src/main/res/drawable/custom_button_bank.xml" value="0.175" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1325" />
         <entry key="app/src/main/res/drawable/rounder.xml" value="0.1325" />
-        <entry key="app/src/main/res/layout/activity_add_edit_note.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/activity_add_edit_note.xml" value="0.2864583333333333" />
         <entry key="app/src/main/res/layout/activity_button_anak_task.xml" value="0.18541666666666667" />
         <entry key="app/src/main/res/layout/activity_button_ortu_task.xml" value="0.17391304347826086" />
         <entry key="app/src/main/res/layout/activity_button_three.xml" value="0.15942028985507245" />
@@ -22,7 +25,7 @@
         <entry key="app/src/main/res/layout/fragment_update.xml" value="0.1734375" />
         <entry key="app/src/main/res/layout/layout_progress.xml" value="0.20516304347826086" />
         <entry key="app/src/main/res/layout/list_view.xml" value="0.19460095391757248" />
-        <entry key="app/src/main/res/layout/note_rv_item.xml" value="0.14175724637681159" />
+        <entry key="app/src/main/res/layout/note_rv_item.xml" value="0.2864583333333333" />
         <entry key="app/src/main/res/layout/row_layout.xml" value="0.22010869565217392" />
         <entry key="app/src/main/res/menu/add_fragment_menu.xml" value="0.17482604980468758" />
         <entry key="app/src/main/res/menu/list_fragment_menu.xml" value="0.32447916666666665" />

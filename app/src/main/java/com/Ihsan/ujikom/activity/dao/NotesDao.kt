@@ -6,7 +6,6 @@ import com.Ihsan.ujikom.model.Notes
 
 
 @Dao
-
 interface NotesDao {
 
     @Insert( onConflict = OnConflictStrategy.IGNORE)

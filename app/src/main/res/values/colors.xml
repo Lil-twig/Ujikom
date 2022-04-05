@@ -17,6 +17,7 @@
     <color name="dark_blue_shade_2">#17388E</color>
     <color name="light_blue_shade">#12B2E6</color>
     <color name="random">#1572A1</color>
+    <color name="light_gray" />
 
 
 </resources>
