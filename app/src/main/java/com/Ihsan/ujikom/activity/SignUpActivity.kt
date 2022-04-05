@@ -11,12 +11,8 @@ import com.google.firebase.auth.FirebaseAuth
 
 class SignUpActivity : AppCompatActivity() {
 
-    //    private lateinit var binding : ActivitySignUpBinding
-//    private lateinit var database : DatabaseReference
     private lateinit var binding : ActivitySignUpBinding
     private lateinit var firebaseAuth : FirebaseAuth
-    //    private lateinit var actionBar: ActionBar
-//    private lateinit var progressDialog: ProgressDialog
     private var namaOrangTua = ""
     private var password = ""
     private var nameOfTheKid = ""
