@@ -18,8 +18,6 @@
     <string name="delete">Delete</string>
 
     <string-array name="priorities">
-        <item>High Priority</item>
-        <item>Medium Priority</item>
-        <item>Low Priority</item>
+        <item>Logout</item>
     </string-array>
 </resources>

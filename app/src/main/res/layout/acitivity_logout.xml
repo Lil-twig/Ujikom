@@ -13,6 +13,10 @@
       android:src="@drawable/ic_threedots"
       android:backgroundTint="@color/white"/>
 
-
+  <AutoCompleteTextView
+      android:id="@+id/CompleteTextView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:inputType="none"/>
 </RelativeLayout>
 
