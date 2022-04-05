@@ -24,25 +24,31 @@
         android:id="@+id/idEdtNoteDescription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp"
         android:layout_above="@id/idBtnAddUpdate"
         android:layout_below="@id/idEdtNoteTitle"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
         android:gravity="start|top"
         android:hint="Enter Note Description"
         android:inputType="textMultiLine"
         android:singleLine="false"
         android:textColor="@color/white"
-        android:textColorHint="@color/white"/>
+        android:textColorHint="@color/white" />
 
     <Button
+        android:id="@+id/idBtnAddUpdate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/idBtnAddUpdate"
-        android:layout_margin="20dp"
         android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/darker_blue"
         android:text="Button"
-        android:background="@drawable/custom_button_back"
-        android:textAllCaps="false"/>
+        android:textAllCaps="true" />
 
 
 
