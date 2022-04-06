@@ -9,6 +9,8 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="black_shade_1">#0e2433</color>
+    <color name="main">#1A7ABF</color>
+
     <color name="black_shade_2">#1C4966</color>
     <color name="black_shade_3">#22252D</color>
     <color name="gray">#424242</color>
@@ -17,7 +19,7 @@
     <color name="dark_blue_shade_2">#17388E</color>
     <color name="light_blue_shade">#12B2E6</color>
     <color name="random">#1572A1</color>
-    <color name="light_gray" />
+    <color name="light_gray"> #FAFAFA </color>
 
 
 </resources>

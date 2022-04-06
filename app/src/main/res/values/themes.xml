@@ -14,5 +14,5 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <color name="dark_blue" />
+    <color name="dark_blue">#23395D</color>
 </resources>

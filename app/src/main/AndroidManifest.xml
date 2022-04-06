@@ -12,10 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ujikom">
         <activity
-            android:name=".activity.AddEditNoteActivity"
+            android:name=".activity.ProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".activity.ButtonThreeActivity"
+            android:name=".activity.AddEditNoteActivity"
             android:exported="false" />
         <activity
             android:name=".activity.LoginActivity"

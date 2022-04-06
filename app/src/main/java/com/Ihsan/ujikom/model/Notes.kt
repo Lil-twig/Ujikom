@@ -13,7 +13,7 @@ class Notes(
             val noteDesc : String,
 
     @ColumnInfo(name = "timestamp")
-            val timeStamp :String )
+            val timeStamp :String? )
 
 {
 
@@ -22,3 +22,10 @@ class Notes(
 
 
 }
+
+data class NotesFirebase(
+    var id: String,
+    var noteTitle:String,
+    var noteDesc : String,
+    var timeStamp :String?
+)

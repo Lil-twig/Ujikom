@@ -27,12 +27,15 @@
             android:id="@+id/idTVTimeStamp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TimeStamp"
-            android:textColor="@color/white"
             android:layout_below="@id/idTVNoteTitle"
+            android:layout_marginStart="@dimen/dp4"
+            android:layout_marginTop="@dimen/dp4"
+            android:layout_marginEnd="@dimen/dp4"
+            android:layout_marginBottom="@dimen/dp4"
             android:layout_toLeftOf="@id/idTVDelete"
-            android:layout_margin="@dimen/dp4"
-            android:padding="@dimen/dp4"/>
+            android:padding="@dimen/dp4"
+            android:text="TimeStamp"
+            android:textColor="@color/white" />
 
         <ImageView
             android:id="@+id/idTVDelete"

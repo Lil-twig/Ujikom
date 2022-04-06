@@ -1,6 +1,7 @@
-package com.Ihsan.ujikom.activity.Adapter
+package com.Ihsan.ujikom.Adapter
 
 import android.content.Context
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -8,7 +9,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.Ihsan.ujikom.R
-import com.Ihsan.ujikom.model.Notes
+import com.Ihsan.ujikom.model.NotesFirebase
 
 
 class NotesAdapter (
@@ -17,7 +18,7 @@ class NotesAdapter (
         val noteClickDeleteInterface: NoteClickDeleteInterface
         ) : RecyclerView.Adapter<NotesAdapter.ViewHolder>(){
 
-        private val allNotes = ArrayList<Notes>()
+        private val allNotes = ArrayList<NotesFirebase>()
 
 
                 inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView){
@@ -34,6 +35,8 @@ class NotesAdapter (
         override fun onBindViewHolder(holder: ViewHolder, position: Int) {
                 holder.noteTV.setText(allNotes.get(position).noteTitle)
                 holder.timeTV.setText("Last Update : "+ allNotes.get(position).timeStamp)
+                Log.d("test",allNotes.get(position).toString())
+
 
                 holder.deleteIV.setOnClickListener {
                         noteClickDeleteInterface.onDeleteIconClick(allNotes.get(position))
@@ -48,7 +51,7 @@ class NotesAdapter (
                 return allNotes.size
         }
 
-        fun updateList(newList : List<Notes>){
+        fun updateList(newList: ArrayList<NotesFirebase>){
                 allNotes.clear()
                 allNotes.addAll(newList)
                 notifyDataSetChanged()
@@ -56,9 +59,9 @@ class NotesAdapter (
 }
 
 interface NoteClickDeleteInterface{
-        fun onDeleteIconClick(note: Notes)
+        fun onDeleteIconClick(note: NotesFirebase)
 }
 
 interface NoteClickInterface{
-        fun onNoteClick(get: Notes)
+        fun onNoteClick(get: NotesFirebase)
 }
