@@ -23,7 +23,7 @@ class AddEditNoteActivity : AppCompatActivity() {
     lateinit var noteTitleEdt: EditText
     lateinit var noteDescriptionEdt: EditText
     lateinit var addupdateBtn: Button
-    lateinit var viewModel: NotesViewModel
+//    lateinit var viewModel: NotesViewModel
     var noteID = -1
 
     private lateinit var firebaseAuth: FirebaseAuth
@@ -50,22 +50,17 @@ class AddEditNoteActivity : AppCompatActivity() {
 
         userNotesDatabase = database.reference.child("notes").child(userID)
 
-
-
-
         val noteType = intent.getStringExtra("noteType")
+        val noteId : String? = intent.getStringExtra("id")
+        val noteTitle : String? = intent.getStringExtra("noteTitle")
+        val noteDesc : String? = intent.getStringExtra("noteDesc")
+        val sdf = SimpleDateFormat("dd MMM, yyyy - HH:mm")
+        val currentDate: String = sdf.format(Date())
         if (noteType.equals("Edit")) {
 
-            val randomString = getRandomString(16)
-            val noteTitle = intent.getStringExtra("title")
-            val noteDesc = intent.getStringExtra("description")
-
-            noteID = intent.getIntExtra("noteID", -1)
             addupdateBtn.setText("Update Note")
             noteTitleEdt.setText(noteTitle)
             noteDescriptionEdt.setText(noteDesc)
-            userNotesDatabase.child(randomString).child("notetitle").setValue(noteTitle)
-            userNotesDatabase.child(randomString).child("notedesc").setValue(noteDesc)
 
 
 
@@ -73,40 +68,42 @@ class AddEditNoteActivity : AppCompatActivity() {
             addupdateBtn.setText("Save Note")
 
         }
-
         addupdateBtn.setOnClickListener {
-
-            val noteTitle = noteTitleEdt.text.toString()
-            val noteDescription = noteDescriptionEdt.text.toString()
-            val randomString = getRandomString(16)
-
             if (noteType.equals("Edit")) {
-                val sdf = SimpleDateFormat("dd MMM, yyyy - HH:mm")
-                val currentDate: String = sdf.format(Date())
-
-//                viewModel.updateNote(updateNote)
-                Toast.makeText(this, "Note Updated...", Toast.LENGTH_LONG).show()
 
 
-            } else {
-                if (noteTitle.isNotEmpty() && noteDescription.isNotEmpty()) {
+                if (noteTitle!!.isNotEmpty() && noteDesc!!.isNotEmpty()) {
                     val sdf = SimpleDateFormat("dd MMM, yyyy - HH:mm")
                     val currentDate: String = sdf.format(Date())
+
+                    userNotesDatabase.child(noteId!!).child("noteTitle").setValue(noteTitleEdt.text.toString())
+                    userNotesDatabase.child(noteId).child("noteDesc").setValue(noteDescriptionEdt.text.toString())
+                    userNotesDatabase.child(noteId).child("timeStamp").setValue(currentDate)
+                    Toast.makeText(this, "Note Updated...", Toast.LENGTH_LONG).show()
 //                    viewModel.addNote(NotesFirebase(noteTitle, noteDescription, currentDate))
-                    Toast.makeText(this, "Note Added...", Toast.LENGTH_LONG).show()
-                    userNotesDatabase.child(randomString).child("noteTitle").setValue(noteTitle)
-                    userNotesDatabase.child(randomString).child("noteDesc").setValue(noteDescription)
-                    userNotesDatabase.child(randomString).child("timeStamp").setValue(currentDate)
+
 
 
                 }
+//                viewModel.updateNote(updateNote)
+
+
+
+            } else {
+                val randomString = getRandomString(16)
+                userNotesDatabase.child(randomString).child("noteTitle").setValue(noteTitleEdt.text.toString())
+                userNotesDatabase.child(randomString).child("noteDesc").setValue(noteDescriptionEdt.text.toString())
+                userNotesDatabase.child(randomString).child("timeStamp").setValue(currentDate)
+                Toast.makeText(this, "Note Added...", Toast.LENGTH_LONG).show()
             }
-
-            val intent = Intent(this,MainActivity::class.java)
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
-//            finish()
-
         }
+
+
+
+
+
     }
     fun getRandomString(length: Int) : String {
         val allowedChars = ('A'..'Z') + ('a'..'z') + ('0'..'9')

@@ -65,24 +65,42 @@
         android:id="@+id/btn_Login"
         android:layout_width="230dp"
         android:layout_height="60dp"
-        android:text="Login"
+        android:background="@drawable/button_rounded"
         android:backgroundTint="@color/random"
+        android:text="Login"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:background="@drawable/button_rounded"
         app:layout_constraintTop_toBottomOf="@+id/txt_ForgotPw"
         app:layout_constraintVertical_bias="0.638" />
 
     <TextView
-        android:id="@+id/link_toSignUp"
-        android:layout_width="match_parent"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="You Don't Have Account? Sign Here"
+        android:layout_marginStart="98dp"
+        android:text="You Don't Have Account?"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_Login"
-        app:layout_constraintVertical_bias="0.102"
-        tools:layout_editor_absoluteX="0dp"
-        android:textAlignment="center" />
+        app:layout_constraintVertical_bias="0.179" />
+
+    <TextView
+        android:id="@+id/link_toSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74dp"
+        android:layout_marginBottom="64dp"
+        android:layout_marginEnd="80dp"
+        android:text="Sign Here"
+        android:textStyle="bold"
+        android:textColor="@color/light_blue_shade"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="@+id/btn_Login"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

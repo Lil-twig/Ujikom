@@ -1,15 +1,23 @@
 package com.Ihsan.ujikom.Adapter
 
+import android.app.Activity
 import android.content.Context
+import android.content.Intent
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.Ihsan.ujikom.R
+import com.Ihsan.ujikom.activity.AddEditNoteActivity
+import com.Ihsan.ujikom.activity.MainActivity
 import com.Ihsan.ujikom.model.NotesFirebase
+import java.text.SimpleDateFormat
+import java.util.*
+import kotlin.collections.ArrayList
 
 
 class NotesAdapter (
@@ -37,14 +45,34 @@ class NotesAdapter (
                 holder.timeTV.setText("Last Update : "+ allNotes.get(position).timeStamp)
                 Log.d("test",allNotes.get(position).toString())
 
+                holder.itemView.setOnClickListener {
+                        val data = allNotes.get(position)
+                        val notes = NotesFirebase(
+                                id = data.id,
+                                noteTitle = data.noteTitle,
+                                noteDesc = data.noteDesc,
+                                timeStamp = data.timeStamp
+                        )
+                        Log.d("notes", notes.toString())
+
+                        context.startActivity(
+                                Intent(context,AddEditNoteActivity::class.java)
+                                        .putExtra("id", notes.id)
+                                        .putExtra("noteTitle", notes.noteTitle)
+                                        .putExtra("noteDesc", notes.noteDesc)
+                                        .putExtra("noteType", "Edit")
+                        )
+
+
+
+                }
+
 
                 holder.deleteIV.setOnClickListener {
                         noteClickDeleteInterface.onDeleteIconClick(allNotes.get(position))
                 }
 
-                holder.itemView.setOnClickListener {
-                        noteClickInterface.onNoteClick(allNotes.get(position))
-                }
+
         }
 
         override fun getItemCount(): Int {
