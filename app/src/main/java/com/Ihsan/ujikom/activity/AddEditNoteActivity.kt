@@ -10,7 +10,6 @@ import androidx.lifecycle.ViewModelProvider
 import com.Ihsan.ujikom.R
 import com.Ihsan.ujikom.model.Notes
 import com.Ihsan.ujikom.model.NotesFirebase
-import com.Ihsan.ujikom.viewmodel.NotesViewModel
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase

@@ -99,7 +99,7 @@
 
 
     <Button
-        android:text="Ammount"
+        android:text="Amount"
         android:id="@+id/button_amount"
         android:layout_width="350dp"
         android:layout_height="60dp"

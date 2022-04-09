@@ -17,7 +17,6 @@ import com.Ihsan.ujikom.Adapter.NoteClickDeleteInterface
 import com.Ihsan.ujikom.Adapter.NoteClickInterface
 import com.Ihsan.ujikom.Adapter.NotesAdapter
 import com.Ihsan.ujikom.model.NotesFirebase
-import com.Ihsan.ujikom.viewmodel.NotesViewModel
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
